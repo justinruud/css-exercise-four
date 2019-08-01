@@ -1,4 +1,169 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+  font-family: arial, sans-serif;
+}
+
+.container {
+  max-width: 991px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container > h1 {
+  text-align: center;
+  padding: 10%;
+  text-transform: uppercase;
+  font-family: helvetica;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+}
+
+.preview-baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70%;
+  margin-bottom: 5%;
+}
+
+.preview-baku > h1 {
+  padding-left: 10%;
+  padding-top: 10%;
+  font-family: georgia;
+  font-size: 2.5em;
+}
+
+.preview-london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70%;
+  margin-bottom: 5%;
+}
+
+.preview-london h1 {
+  padding-left: 10%;
+  padding-top: 10%;
+  font-family: georgia;
+  font-size: 2.5em;
+}
+
+
+.preview-madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70%;
+  margin-bottom: 5%;
+}
+
+.preview-madrid h1 {
+  padding-left: 10%;
+  padding-top: 10%;
+  font-family: georgia;
+  font-size: 2.5em;
+}
+
+.preview-rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70%;
+  margin-bottom: 5%;
+}
+.preview-rome h1 {
+  padding-left: 10%;
+  padding-top: 10%;
+  font-family: georgia;
+  font-size: 2.5em;
+}
+
+/* div {
+  float: left;
+  display: inline-block;
+  margin: 1% 0;
+  width: 100%;
+  padding: 5% 5%;
+} */
+
+@media screen and (min-width: 380px) {
+
+}
+
+@media screen and (min-width: 575px) {
+.container > h1 {
+  padding: 5%;
+  }
+.preview-baku {
+  width: 44%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  padding-bottom: 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+  }
+.preview-london {
+    width: 44%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  .preview-madrid {
+    width: 44%;
+    margin-right: 5%;
+    padding-bottom: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  .preview-rome {
+    width: 44%;
+    margin-left: 5%;
+    padding-bottom: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .preview-baku {
+    width: 23%;
+    margin: 1%;
+    padding-bottom: 18%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    }
+  .preview-london {
+      width: 23%;
+      margin: 1%;
+      padding-bottom: 18%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .preview-madrid {
+      width: 23%;
+      margin: 1%;
+      padding-bottom: 18%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      float: left;
+    }
+    .preview-rome {
+      width: 23%;
+      margin: 1%;
+      padding-bottom: 18%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 }
